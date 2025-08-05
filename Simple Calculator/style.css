@@ -44,6 +44,10 @@ html, body {
 
 #line1 {
     margin-top: 60px;
+
+}
+#line1:hover {
+    background-color: aliceblue;
 }
 
 #square {
@@ -54,3 +58,11 @@ html, body {
     background-color: #f3f3f3;
     box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.2);
 }
+
+.clr:hover {
+   background-color: aqua; 
+   width: 60px;
+    height: 60px;
+    border-radius: 50%;
+}
+
