@@ -1,0 +1,44 @@
+* {
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+html, body {
+    width: 100%;
+    height: 100%;
+}
+
+body {
+    display: flex;
+    flex-direction: row;
+}
+
+div{
+    width: 800px;
+    height: 50%;
+    text-align: center;
+    align-content: center;
+    justify-content: center;
+}
+
+
+#box1 {
+    background-color: rgb(165, 197, 226);
+    border-style: solid;
+}
+
+#box2 {
+    background-color: antiquewhite;
+    border-style: solid;
+}
+
+#box3 {
+    background-color: rgb(164, 228, 15);
+    border-style: solid;
+}
+
+#box4 {
+    background-color: rgb(43, 15, 228);
+    border-style: solid;
+}
