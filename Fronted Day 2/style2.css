@@ -26,14 +26,10 @@ h1 {
     border: 5px solid black;
     position: absolute;
     top: 20%;
-    left: 20%;
+    left: 34%;
     padding-left: 40px;
     padding-bottom: 50px;
     padding-right: 10px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    transform: rotate(-50%, -50%);
 }
 
 .shape {
