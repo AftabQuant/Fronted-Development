@@ -73,18 +73,20 @@ html, body {
 
 #login:hover {
     background-color: lightblue;
+    border-radius: 5px;
 }
 
 #try {
     padding: 10px 20px;
     background-color: green;
-    border-radius: 5%;
+    border-radius: 5px;
     color: white;
 
 }
 
 #try:hover {
     background-color: darkgreen;
+    border-radius: 5px;
 }
 
 #fakeHeader {
@@ -107,6 +109,7 @@ html, body {
     display: flex;
     text-align: center;
     align-items: center;
+    justify-content: center;
 }
 
 #content {
@@ -120,6 +123,7 @@ html, body {
 .box {
     height: 90%;  
     width: 46%;
+    margin-top: 80px;
 }
 
 #box1 {
@@ -189,6 +193,7 @@ html, body {
     align-items: center;
     justify-content: center;
     font-weight: 5px;
+    margin-top: 10px;
 }
 
 #page-2 {
