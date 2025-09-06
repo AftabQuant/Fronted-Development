@@ -16,9 +16,14 @@ html, body {
     justify-content: center;
 }
 
+.boxA {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
 .box {
-    width: 150px;
-    height: 150px;
+    width: 200px;
+    height: 200px;
     border: 2px solid black;
     margin: 7px 7px;
     display: flex;
@@ -28,7 +33,7 @@ html, body {
     font-size: 24px;
 }
 
-#box1:hover {
+/* #box1:hover {
     background-color: red;
     color: white;
     font-weight: 40px;
@@ -50,6 +55,6 @@ html, body {
     background-color: yellow;
     color: white;
     font-weight: 40px;
-}
+} */
 
 
