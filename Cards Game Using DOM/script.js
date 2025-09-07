@@ -66,3 +66,12 @@ sq4.addEventListener('mouseleave', function() {
     sq3.style.backgroundColor = "white";
     sq3.innerHTML = `<h1> 4 </h1>`
 })
+
+let crsr = document.getElementById("cursor");
+let main = document.getElementById("main");
+
+main.addEventListener("mousemove", function(details) {
+    console.log(details.x, details.y);
+    crsr.style.left = details.x + "px";
+    crsr.style.top = details.y + "px";
+})
