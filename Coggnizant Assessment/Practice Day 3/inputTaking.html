@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Employee Registration</title>
+</head>
+<body>
+    <div id="main">
+        <h2>Employee Registration Form</h2>
+
+        <form action="/submit" method="post">
+            <!-- Text input -->
+        <label for="name">Enter the name: </label>
+        <input type="text" id="name" name="EmpName" placeholder="Enter your name" required>
+        <br><br>
+
+        <!-- Number input -->
+        <label for="age">Enter your age: </label>
+        <input type="number" id="age" name="EmpAge" placeholder="Enter your age" min="18" max="60">
+        <br><br>
+
+        <!-- Email input -->
+        <label for="email">Enter your email: </label>
+        <input type="email" id="email" name="EmpEmail" placeholder="Enter your email" required>
+        <br><br>
+
+        <!-- Password input -->
+        <label for="pass">Enter your password: </label>
+        <input type="password" id="pass" name="EmpPass" placeholder="Enter your password" required minlength="8">
+        <br><br>
+
+        <!-- Radio buttons -->
+        <input type="radio" id="male" name="gender" value="Male">
+        <label for="male">Male</label>
+        <input type="radio" id="female" name="gender" value="Female">
+        <label for="female">Female</label>
+        <br><br>
+
+        <!-- Checkbox -->
+        <input type="checkbox" name="skills" value="java"> Java
+        <input type="checkbox" name="skills" value="python"> Python
+        <input type="checkbox" name="skills" value="SQL"> SQL
+        <br><br>
+
+        <!-- Dropdown -->
+        <label for="department">Enter your department: </label>
+        <select name="EmpDept" id="department">
+            <option value="hr">HR</option>
+            <option value="it">IT</option>
+            <option value="finance">finance</option>
+        </select>
+        <br><br>
+
+        <!-- Submit button -->
+        <button type="submit"> Submit</button>
+        </form>
+    </div>
+</body>
+</html>
