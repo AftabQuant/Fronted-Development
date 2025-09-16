@@ -26,6 +26,15 @@ html, body {
 #output {
     height: 70px;
     border-bottom: 3px solid black;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+#output h1 {
+    margin-right: 20px;
+    font-size: 60px;
+    box-sizing: border-box;
 }
 
 .row {
@@ -44,4 +53,5 @@ html, body {
     display: flex;
     align-items: center;
     justify-content: center;
+    cursor: pointer;
 }

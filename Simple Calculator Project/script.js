@@ -1,15 +1,32 @@
-let squ = document.querySelectorAll(".sq");
+let sq = document.querySelectorAll(".sq");
+let output = document.getElementById("output");
+let display = document.getElementById("display");
 
-squ.forEach(function (sq) {
-    sq.addEventListener("click", () => {
+let exp = "";
+sq.forEach(function(ele) {
+    ele.addEventListener("click", () => {
+        let value = ele.innerText;
         
-        sq.style.backgroundColor = "aqua";
+        if(value === 'Ac') {
+            exp = "";
+            display.innerText = "0";
+        }
+        else if(value === '=') {
+            let res = eval(exp);
+            display.innerText = res;
+            exp = res.toString();
+        }
+        else {
+            exp += value;
+            display.innerText = exp;
+        }
 
+        ele.style.backgroundColor = "red";
+        
     })
-})
 
-squ.forEach( function(sq) {
-    sq.addEventListener("mouseleave", () => {
-        sq.style.backgroundColor = "white";
+
+    ele.addEventListener("mouseleave", () => {
+        ele.style.backgroundColor = "white";
     })
 })
