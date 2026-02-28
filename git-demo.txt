@@ -1,8 +1,4 @@
-<<<<<<< HEAD
 Hello! my name is Md Aftab Uddin
 
 Google's AI Overview is a search feature that uses generative 
 AI to provide instant, summarized answers at the top of search results.
-=======
-Hello! my name is Md Aftab Uddin
->>>>>>> 74f95f236d8fd555f9f75539c8e3496330c31791
